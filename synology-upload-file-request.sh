@@ -26,7 +26,7 @@ while [ $# -gt 0 ]; do
       echo "Bash script to upload a file to a Synology NAS using a file request"
       echo "-------------------------------------------------------------------"
       echo
-      echo "Syntax: bash synology-upload-file-request.sh --host [HOST] --sharing_id [SHARING_ID] --password [PASSWORD] --uploader_name [UPLOADER_NAME] -F [FILE_TO_UPLOAD]"
+      echo "Syntax: bash synology-upload-file-request.sh --host [HOST] --sharing_id [SHARING_ID] --password [PASSWORD] --uploader_name [UPLOADER_NAME] --file [FILE_TO_UPLOAD]"
       echo
       echo "Options:"
       echo "-H,  --host           Host name of the Synology NAS, including the protocol (HTTP/HTTPS) and the port, without trailing slash"
